@@ -4,8 +4,8 @@ homepage: https://github.com/baseflow/flutter-permission-handler
 version: 10.3.4
 
 environment:
-  sdk: ">=2.15.0 <4.0.0"
-  flutter: ">=2.8.0"
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.12.0 <2.0.0"
 
 flutter:
   plugin:
