@@ -13,7 +13,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler_platform_interface: ^3.11.0
+  permission_handler_platform_interface:
+    git:
+      url: git@github.com:ibrahimMahfuz/flutter-permission-handler.git
+      path: permission_handler_platform_interface
+      ref: test
 
 dev_dependencies:
   flutter_test:
