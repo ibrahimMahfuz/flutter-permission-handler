@@ -6,34 +6,26 @@ version: 11.3.1
 
 
 environment:
-  sdk: ">=2.15.0 <4.0.0"
-  flutter: ">=2.8.0"
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.12.8 <2.0.0"
 
 flutter:
   plugin:
     platforms:
       android:
         default_package: permission_handler_android
-      ios:
-        default_package: permission_handler_apple
-      web:
-        default_package: permission_handler_html
-      windows:
-        default_package: permission_handler_windows
 
 dependencies:
   flutter:
     sdk: flutter
-  meta: ^1.7.0
-  permission_handler_android: ^12.0.3
-  permission_handler_apple: ^9.4.3
-  permission_handler_html: ^0.1.1
-  permission_handler_windows: ^0.2.1
-  permission_handler_platform_interface: ^4.2.0
+  meta: ^1.2.4
+  permission_handler_android:
+    path: /Users/segari/code/mobile/flutter-permission-handler/permission_handler_android
+  permission_handler_platform_interface:
+    path: /Users/segari/code/mobile/flutter-permission-handler/permission_handler_platform_interface
 
 dev_dependencies:
-  flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
-  mockito: ^5.0.1
-  plugin_platform_interface: ^2.0.0
+  mockito: ^4.1.4
+  plugin_platform_interface: ^1.0.3
