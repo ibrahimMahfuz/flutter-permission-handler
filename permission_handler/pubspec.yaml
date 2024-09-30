@@ -20,9 +20,15 @@ dependencies:
     sdk: flutter
   meta: ^1.2.4
   permission_handler_android:
-    path: /Users/segari/code/mobile/flutter-permission-handler/permission_handler_android
+    git:
+      url: https://github.com/ibrahimMahfuz/flutter-permission-handler.git
+      path: permission_handler_android
+      ref: test-xl.2
   permission_handler_platform_interface:
-    path: /Users/segari/code/mobile/flutter-permission-handler/permission_handler_platform_interface
+    git:
+      url: https://github.com/ibrahimMahfuz/flutter-permission-handler.git
+      path: permission_handler_platform_interface
+      ref: test-xl.2
 
 dev_dependencies:
   flutter_test:
