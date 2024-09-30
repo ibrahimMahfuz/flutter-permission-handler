@@ -23,12 +23,12 @@ dependencies:
     git:
       url: https://github.com/ibrahimMahfuz/flutter-permission-handler.git
       path: permission_handler_android
-      ref: test-xl.2
+      ref: v11.3.1_null_unsafe
   permission_handler_platform_interface:
     git:
       url: https://github.com/ibrahimMahfuz/flutter-permission-handler.git
       path: permission_handler_platform_interface
-      ref: test-xl.2
+      ref: v11.3.1_null_unsafe
 
 dev_dependencies:
   flutter_test:
